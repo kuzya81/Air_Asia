@@ -53,6 +53,7 @@ ul li{
 }
 .menu__item{
     margin-left: 54px;
+    transition: .5s;
 }
 .menu__item:hover{
     color: #F5170E;
@@ -123,6 +124,7 @@ text-decoration: underline;
     text-transform: uppercase;
     border: 1px solid #F5170E;
     color: #F5170E;
+    transition: .5s;
 }
 .btn:hover{
     background-color: #F5170E;
@@ -157,6 +159,7 @@ text-decoration: underline;
     background-color:transparent;
     border-radius: 50%;
     justify-content: center;
+    transition: .5s;
 }
 .page-number:hover{
     color: #fff;
@@ -214,6 +217,7 @@ background-color: #001821;
     margin-left: 10px;
     display: flex;
     opacity: .3;
+    transition: .5s;
 }
 .socials__link:hover{
     opacity: 1;
