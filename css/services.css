@@ -213,7 +213,7 @@ background-color: #001821;
     color: #9A9A9A;
     margin-left: 26px;
 }
-.socials__link{
+/* .socials__link{
     margin-left: 10px;
     display: flex;
     opacity: .3;
@@ -221,7 +221,64 @@ background-color: #001821;
 }
 .socials__link:hover{
     opacity: 1;
+} */
+
+
+/* спрайты */
+.icons{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-left: 10px;
+    position: relative;
 }
+
+.twitter-icon::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 36px;
+    height: 36px;
+    background:url(../img/icons/css_sprites.png)-122px -66px;
+}
+.twitter-icon:hover::after{
+    background-position: -66px -122px;
+}
+.vk-icon::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 36px;
+    height: 36px;
+    background:url(../img/icons/css_sprites.png)-122px -10px;
+}
+.vk-icon:hover::after{
+    background-position: -10px -122px;
+}
+.facebook-icon::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 36px;
+    height: 36px;
+    background:url(../img/icons/css_sprites.png)-66px -66px;
+}
+.facebook-icon:hover::after{
+    background-position: -10px -10px;
+}
+.in-icon::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 36px;
+    height: 36px;
+    background:url(../img/icons/css_sprites.png)-10px -66px;
+}
+.in-icon:hover::after{
+    background-position: -66px -10px;
+}
+
+
 /* выпадающее меню */
 
 .dropdown__menu{
