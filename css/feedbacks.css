@@ -93,17 +93,25 @@ text-decoration: underline;
    padding-top: 98px; 
    padding-bottom: 76px;
 }
-
+.feedback__content{
+    display: flex;
+    justify-content: space-between;
+}
 
 .feedbacks__column{
     max-width: 557px;
     border-radius: 5px;
 }
 .feedbacks__item{
+    display: flex;
+    flex-direction: column;
     background: #F4F5F5;
     padding: 50px 29px 32px;
     border-radius: 5px;
+    min-height: 540px;
+    margin-bottom: 17px;
 }
+
 .user__foto{
     width: 142px;
     height: 142px;
@@ -113,13 +121,28 @@ text-decoration: underline;
     background-size: cover;
 
 }
+.user__info{
+    display: inline-flex;
+}
 .user__name{
     font-weight: bold;
     font-size: 24px;
     line-height: 42px;
     color: #1A1B1E;
     transition: color .3s;
+    position: relative;
+    max-width: 270px;
 }
+.user__name::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    top: 3px;
+    right: -36px;
+    background: url(../img/icons/vk-blue.png);
+}
+
 .user__name:hover{
     color: #2E77A4;
     text-decoration: underline;
@@ -157,6 +180,43 @@ text-decoration: underline;
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+}
+.feedback__pages{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 45px;
+
+}
+.current-page{
+    margin-right: 36px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.pages{
+    display: inline-flex;
+    align-items: center;
+}
+.page-number{
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    width: 32px;
+    height: 32px;
+    background-color:transparent;
+    border-radius: 50%;
+    justify-content: center;
+    transition: .5s;
+}
+.page-number:hover{
+    color: #fff;
+    background-color: #F5170E;
 }
 
 
@@ -228,7 +288,7 @@ background-color: #001821;
     display: block;
     width: 36px;
     height: 36px;
-    background:url(/img/icons/css_sprites.png)-122px -66px;
+    background:url(../img/icons/css_sprites.png)-122px -66px;
 }
 .twitter-icon:hover::after{
     background-position: -66px -122px;
@@ -239,7 +299,7 @@ background-color: #001821;
     display: block;
     width: 36px;
     height: 36px;
-    background:url(/img/icons/css_sprites.png)-122px -10px;
+    background:url(../img/icons/css_sprites.png)-122px -10px;
 }
 .vk-icon:hover::after{
     background-position: -10px -122px;
@@ -250,7 +310,7 @@ background-color: #001821;
     display: block;
     width: 36px;
     height: 36px;
-    background:url(/img/icons/css_sprites.png)-66px -66px;
+    background:url(../img/icons/css_sprites.png)-66px -66px;
 }
 .facebook-icon:hover::after{
     background-position: -10px -10px;
@@ -261,7 +321,7 @@ background-color: #001821;
     display: block;
     width: 36px;
     height: 36px;
-    background:url(/img/icons/css_sprites.png)-10px -66px;
+    background:url(../img/icons/css_sprites.png)-10px -66px;
 }
 .in-icon:hover::after{
     background-position: -66px -10px;
@@ -276,7 +336,7 @@ background-color: #001821;
     position: absolute;
     top: 100%;
     right: -5000px;
-    background: url(/img/dropdown_bg.png) center center no-repeat;
+    background: url(../img/dropdown_bg.png) center center no-repeat;
     font-size: 13px;
     line-height: 21px;
     display: block;

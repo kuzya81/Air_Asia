@@ -85,7 +85,7 @@ ul li{
     margin-bottom: 52px;
 }
 .hot-turs__title::after{
-    content: url(/img/flame.png);
+    content: url(../img/flame.png);
     top: 0;
     right: 0;
     margin-left: 5px;
@@ -339,7 +339,7 @@ padding: 38px 0;
     display: block;
     width: 36px;
     height: 36px;
-    background:url(/img/icons/css_sprites.png)-122px -66px;
+    background:url(../img/icons/css_sprites.png)-122px -66px;
 }
 .twitter-icon:hover::after{
     background-position: -66px -122px;
@@ -350,7 +350,7 @@ padding: 38px 0;
     display: block;
     width: 36px;
     height: 36px;
-    background:url(/img/icons/css_sprites.png)-122px -10px;
+    background:url(../img/icons/css_sprites.png)-122px -10px;
 }
 .vk-icon:hover::after{
     background-position: -10px -122px;
@@ -361,7 +361,7 @@ padding: 38px 0;
     display: block;
     width: 36px;
     height: 36px;
-    background:url(/img/icons/css_sprites.png)-66px -66px;
+    background:url(../img/icons/css_sprites.png)-66px -66px;
 }
 .facebook-icon:hover::after{
     background-position: -10px -10px;
@@ -372,7 +372,7 @@ padding: 38px 0;
     display: block;
     width: 36px;
     height: 36px;
-    background:url(/img/icons/css_sprites.png)-10px -66px;
+    background:url(../img/icons/css_sprites.png)-10px -66px;
 }
 .in-icon:hover::after{
     background-position: -66px -10px;
@@ -386,7 +386,7 @@ padding: 38px 0;
     position: absolute;
     top: 100%;
     right: -5000px;
-    background: url(/img/dropdown_bg.png) center center no-repeat;
+    background: url(../img/dropdown_bg.png) center center no-repeat;
     font-size: 13px;
     line-height: 21px;
     display: block;
