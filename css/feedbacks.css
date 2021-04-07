@@ -23,8 +23,8 @@ ul li{
     padding:0;
 }
 .wrapper{
-    min-width: 114px;
-    background: url(../img/services/headline\ 1.png) center top no-repeat; 
+    min-width: 1140px;
+    background: url(../img/services/headline.png) center top no-repeat;
 }
 .container{
     margin: 0 auto;
@@ -91,11 +91,13 @@ text-decoration: underline;
 
 .main{
    padding-top: 98px; 
-   padding-bottom: 76px;
 }
 .feedback__content{
     display: flex;
     justify-content: space-between;
+}
+.feedbacks{
+    padding-bottom: 90px;
 }
 
 .feedbacks__column{
@@ -218,7 +220,33 @@ text-decoration: underline;
     color: #fff;
     background-color: #F5170E;
 }
-
+.baner{
+    min-height: 363px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: url(../img/feedbacks/fb_bg.png) center center no-repeat;
+}
+.baner__titrle{
+    max-width: 595px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #fff;
+}
+.feedback-form{
+    background-color:#F4F5F5 ;
+    padding-top: 62px;
+    padding-bottom: 114px;
+}
+.form__title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    display: flex;
+    color: #1A1B1E;
+    margin-bottom: 57px;
+}
 
 
 
@@ -235,8 +263,8 @@ text-decoration: underline;
 
 .footer{
     color: #fff;
-padding: 32px 0;
-background-color: #001821;
+    padding: 32px 0;
+    background-color: #001821;
 }
 .footer__inner{
     display: flex;
