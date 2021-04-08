@@ -33,7 +33,7 @@ a{
     animation: MainAnimation;
     animation-delay: .5s;
     animation-duration: 1s;
-    animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-timing-function:ease-out;
     animation-fill-mode: forwards;
     opacity: 1;
     transform: scale(0);
@@ -61,17 +61,17 @@ a{
     from{
         transform: scale(0);
     }
+    20%{
+        transform: scale(1.1);
+    }
     40%{
-        transform: scale(1);
+        transform: scale(.9);
     }
-    55%{
-        transform: scale(.8);
+    60%{
+        transform: scale(1.1);
     }
-    70%{
-        transform: scale(1);
-    }
-    85%{
-        transform: scale(.8);
+    80%{
+        transform: scale(.9);
     }
     to{
         transform: scale(1);
